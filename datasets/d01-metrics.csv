@@ -1,0 +1,130 @@
+Metric,Description,Domain independent,Capacity correlation,Categorization,Explicit window type,Intuitive rate/quota,Original name,Rate/quota
+Requests/day,Requests per day,Yes,Yes,Requests/TU,No,Yes,Requests/day,Quota
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,CPM rate,Quota
+TPS,Requests per second,Yes,Yes,Requests/TU,No,Yes,Transacciones por segundo,Rate
+Transactions,Total requests,Yes,Yes,Requests,No,No,Transacciones,Quota
+Requests/minute,Requests per minute,Yes,Yes,Requests/TU,No*,Yes,Rate limits,Rate
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Llamadas de API al mes,Quota
+Storage,Maximum user storage size,Yes,No,Storage,No,No,Storage,Quota
+Single file upload size,Maximum uploaded file size,Yes,No,Upload,No,No,Single file upload limit,Quota
+Integrations,Maximum number of external integrations,Yes,No,Integrations,No,No,Enterprise app integrations,Quota
+History,Available version history,Yes,No,History,No,No,Version history,Quota
+Minimum users,Minimum number of users,Yes,No,Users,No,No,Minimum users,Quota
+Maximum users,Maximum number of users,Yes,No,Users,No,No,Maximum users,Quota
+Prebuilt prediction operations,Number of prebuilt prediction operations,No,No,AI,No,No,Pre-build models operations,Quota
+Custom prediction operations,Number of custom prediction operations,No,No,AI,No,No,Custom models operations,Quota
+Search operations,Number of search operations,No,No,AI,No,No,Search operations,Quota
+Add/edit operations,Number of add/edit input images operations,No,No,AI,No,No,Add or edit input images,Quota
+Custom model hosting,Number of custom models that can be hosted,No,No,AI,No,No,Custom model hosting,Quota
+Image hosting,Number of images that can be hosted,No,No,AI,No,No,Image hosting,Quota
+Custom model training,Custom models that can be trained,No,No,AI,No,No,Custom model training,Quota
+Visual search training,Visual search models that can be trained,No,No,AI,No,No,Customized visual search,Quota
+Retraining,Retraining operations that can be performed,No,No,AI,No,No,Model retraining with feedback,Quota
+Total inputs,Maximum number of inputs,Yes,Yes,AI,No,No,Upper plan limits,Quota
+Total operations,Maximum number of operations,Yes,Yes,AI,No,No,Upper plan limits,Quota
+Image regular batch size,Maximum batch size for image regular operations,Yes,Yes,Upload,No,No,Max batch size - Image predict,Quota
+Image workflow batch size,Maximum batch size for image workflow operations,Yes,Yes,Upload,No,No,Max batch size - Image predict,Quota
+Video batch size,Maximum batch size for videos,Yes,Yes,Upload,No,No,Max batch size - Video predict,Quota
+Search batch size,Maximum batch size for searches,Yes,Yes,Upload,No,No,Max batch size - Search,Quota
+Other batch size,Maximum batch size for other operations,Yes,Yes,Upload,No,No,Max batch size - Other,Quota
+Image predict requests/second,Image predict requests per second,Yes,Yes,Requests/TU,No,Yes,Max API calls per second - Image predict,Rate
+Video predict requests/second,Video predict requests per second,Yes,Yes,Requests/TU,No,Yes,Max API calls per second - Video predict,Rate
+Search requests/second,Search requests per second,Yes,Yes,Requests/TU,No,Yes,Max API calls per second - Search,Rate
+Other requests/second,Other requests per second,Yes,Yes,Requests/TU,No,Yes,Max API calls per second - Other,Rate
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Requests/month,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,-,Rate
+Requests/hour,Requests per hour,Yes,Yes,Requests/TU,No,Yes,Rate limit,Rate
+Invoices and expenses,Generated invoices per year,No,Yes,Other,No,Yes,Invoices & expenses,Quota
+Users,Maximum number of users,Yes,No,Users,No,No,Users,Quota
+Envelopes,Documents to be sent,No,Yes,Documents,No,Yes,Envelopes,Quota
+Requests/hour,Requests per hour,Yes,Yes,Requests/TU,No*,Yes,Calls/hour,Rate
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Rate limits,Rate
+Storage,Maximum user storage size,Yes,No,Storage,No,No,Storage,Quota
+Upload size,Maximum uploaded file size,Yes,No,Upload,No,No,Dropbox transfer,Quota
+Users,Maximum number of users,Yes,No,Users,No,No,Users,Quota
+Emails/month,Emails sent per month,No,Yes,Emails,No,Yes,Emails/month,Quota
+Query size,Query size in MB,No,No,Requests,No,No,-,Quota
+Query size sum,Query size sum in MB,No,No,Requests,No,No,-,Quota
+History,Stats history,No,No,History,No,No,-,Quota
+Documents,Documents to be sent,No,No,Documents,No,No,Documents,Quota
+Templates,Total templates to be created,No,No,Documents,No,No,Templates,Quota
+QPS,Queries per second,Yes,Yes,Requests/TU,No,Yes,QPS,Rate
+QPS invalid param,Queries per second for queries with invalid parameters,Yes,Yes,Requests/TU,No,Yes,400 failure,Rate
+QPS timeout,Queries per second for queries that time out,Yes,Yes,Requests/TU,No,Yes,412 failure,Rate
+File size,Maximum uploaded file size,Yes,No,Upload,No,No,File size,Quota
+Face sets,Face sets that can be returned,No,No,Other,No,No,Face sets,Quota
+Matches,Number of matches returned,No,Yes,Results,No,No,Matches,Quota
+Requests/60 seconds,Requests per minute,Yes,Yes,Requests/TU,No,Yes,Queries per minute,Rate
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,No,Monthly requests,Quota
+Credits/month,Consumed credits per month,No,Yes,Credits,No,No,Credits,Quota
+Credits/hour,Consumed credits per hour,No,Yes,Credits,No,Yes,Credits per hour,Rate
+Simultaneous connections,Users that can connect simultaneously,Yes,Yes,Users,No,No,Simultaneous connections,Quota
+Requests/hour,Requests per hour,Yes,Yes,Requests/TU,No*,Yes,Rate limit,Rate
+Action minutes,Minutes per month that GitHub CI can be used,No,Yes,Other,No,Yes,Minutes per month,Quota
+Package storage,GitHub package storage size,No,No,Storage,No,No,Storage,Quota
+Transactions/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Transactions per month,Quota
+Users,Active users of an application,Yes,No,Users,No,No,Monthly active users,Quota
+Assets,Assets to be used,No,No,Other,No,No,Assets per month,Quota
+Data transfer,Data to be transfered,Yes,No,Upload,No,No,Data transfer per month,Quota
+Database storage,Maximum user storage size,Yes,No,Storage,No,No,Database storage per month,Quota
+Credits,Credits which are consumed when sending requests,No,Yes,Credits,No,Yes,Credits,Rate
+Requests/5 seconds,Requests per 5 seconds,Yes,Yes,Requests/TU,No*,Yes,Rate limit,Rate
+Mailings,Emails to be sent,No,Yes,Emails,No,Yes,Monthly mailings,Quota
+Users,Users which can use the account,Yes,No,Users,No,No,Users,Quota
+Webhooks,Webhooks to be added,Yes,No,Integrations,No,No,Webhooks,Quota
+Templates,Email templates,No,No,Emails,No,No,HTML templates,Quota
+Book entries,Contacts to be saved in an address book,No,No,Contacts,No,No,Address book entries,Quota
+Requests/5 minutes,Requests per 5 minutes,Yes,Yes,Requests/TU,No,Yes,-,Rate
+Contacts,Contacts to be saved in an account,No,No,Contacts,No,No,Contacts,Quota
+Emails/month,Emails to be sent,No,Yes,Emails,No,Yes,Monthly email sends,Quota
+Requests/minute,Requests per minute,Yes,Yes,Requests/TU,No,Yes,Requests per minute,Rate
+Emails,Emails to be sent,No,Yes,Emails,No,Yes,Emails,Quota
+Validations,Email address to be validates,No,No,Emails,No,No,Email address validations,Quota
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Peticiones/mes,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,Peticiones/segundo,Rate
+Dictionaries,Custom dictionaries for topic or sentiment extraction,No,No,AI,No,No,Dictionaries,Quota
+Entries per dictionary,Words that can be included in each dictionary,No,No,AI,No,No,Entries per dictionary,Quota
+Classification models,Custom classification models with custom categories,No,No,AI,No,No,Classification models,Quota
+Categories per model,Categories that can be included in each classification model,No,No,AI,No,No,Categories per model,Quota
+Sentiment models,Custom sentiment models,No,No,AI,No,No,Sentiment models,Quota
+Entries per model,Entries that can be included in each sentiment model,No,No,AI,No,No,Entries per model,Quota
+Deep cat. models,Custom deep categorization models with custom categories,No,No,AI,No,No,Deep cat. models,Quota
+Deep cat. per model,Categories that can be included in each deep categorization model,No,No,AI,No,No,Categories per model,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,Call rate limit,Rate
+Rows/month,Rows to be selected,No,Yes,Other,No,Yes,Rows per month,Quota
+Active users,Final users which send requests,Yes,No,Users,No,No,Active users (MAU),Quota
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,Calls/month,Quota
+Requests/minute,Requests per minute,Yes,Yes,Requests/TU,No,Yes,Calls/minute,Rate
+Requests/day,Requests per day,Yes,Yes,Requests/TU,No,Yes,Calls/day,Quota
+History,Time back in which history can be recovered,No,No,History,No,No,"Month back, year back",Quota
+Square degrees,Size of the area of a map,No,No,Other,No,No,Square degrees,Quota
+Update frequency,Maximum time in which the API data is updates,No,No,Other,No,No,Data update,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,Rate limit,Rate
+Users,Total app users,Yes,No,Users,No,No,Total users,Quota
+Storage,Maximum user storage size,Yes,No,Storage,No,No,-,Quota
+File size,Maximum uploaded file size,Yes,No,Upload,No,No,File size limit,Quota
+Data retention,Time in which data is not deleted,No,No,Storage,No,No,Data retention,Quota
+Requests/week,Requests per week,Yes,Yes,Requests/TU,Reset every 7 days,Yes,Weekly quota,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,Throttling rate,Rate
+Views,Specific information to be received,No,No,Results,No,No,Views,Quota
+Max results,Maximum number of results to be received per request,Yes,Yes,Results,No,No,Results,Quota
+Requests/second,Requests per second,Yes,Yes,Requests/TU,No,Yes,Rate limit,Rate
+IPs/month,IPs to be analyzed,No,Yes,IPs,No,Yes,IPs per month,Quota
+Results/month,Results to be received,Yes,Yes,Results,No,Yes,Results per month,Quota
+Monitoring IPs,IPs to be monitored,No,No,IPs,No,No,Network monitoring,Quota
+Requests/24 hours,Requests per day,Yes,Yes,Requests/TU,24-hour time windows,Yes,Rate limit,Rate
+Upload size,Maximum uploaded file size,Yes,No,Upload,No,No,-,Quota
+Requests/30 days,Requests per month,Yes,Yes,Requests/TU,"Rolling 30 days, wherein calls from the 31st day will fall off of the total number of calls requested",Yes,Requests for a 30 day period,Quota
+Total contacts,Contacts to be saved in an account,No,No,Contacts,No,No,Total contacts,
+Contacts per group,Contacts to be added to a group,No,No,Contacts,No,No,Contacts per group,
+Contacts per CSV,Contacts to be added to a CSV file,No,No,Contacts,No,No,Contacts per CSV,
+Recipients,Recipients to be added to an email,No,Yes,Emails,No,No,Contacts (recipients) you can add to each Email Invitation collector,
+Requests/month,Requests per month,Yes,Yes,Requests/TU,No,Yes,-,Quota
+Requests/day,Requests per day,Yes,Yes,Requests/TU,Reset at 12:00 AM GMT,Yes,Rate limit,Rate
+Requests/minute,Requests per minute,Yes,Yes,Requests/TU,No*,Yes,Rate limit,Rate
+Sent emails,Emails to be sent,No,Yes,Emails,Rolling 24 hour period,Yes,Daily sending limit,Quota
+Rate violations,Number of times in which a rate can be violated,Yes,No,Requests,No,No,Violations,Rate
+Requests/minute,Requests per minute,Yes,Yes,Requests/TU,No*,Yes,Rate limit,Rate
+Emails,Emails to be sent,No,Yes,Emails,No,Yes,Emails/month,Quota
+Validations,Email validations,No,Yes,Emails,No,No,Email validations,Quota
+Requests/day,Requests per day,Yes,Yes,Requests/TU,Reset every midnight UTC time,Yes,Daily limit,Quota
