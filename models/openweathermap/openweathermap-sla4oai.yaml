@@ -2505,12 +2505,12 @@ plans:
       /data/2.5/history/accumulated_precipitation:
         get:
           timeBack:
-            - max: custom
+            - custom: true
       /data/2.5/history/accumulated_temperature:
         get:
           timeBack:
-            - max: custom
+            - custom: true
       /data/2.5/history/city:
         get:
           timeBack:
-            - max: custom
+            - custom: true
