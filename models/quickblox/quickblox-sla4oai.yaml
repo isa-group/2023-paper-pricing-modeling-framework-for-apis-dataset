@@ -45,842 +45,842 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /session.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /login.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/{user_id}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/by_login.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/by_full_name.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/by_email.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/by_tags.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /users/password/reset.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Dialog.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Message.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /chat/Message/unread.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /blobs.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /subscriptions.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /events.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /events/{event_id}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /class.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /data/{class_name}.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       1158':
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         delete:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /address_book.json:
         post:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
       /address_book/registered_users.json:
         get:
           totalUsers:
-            max: 500
-            period:
-              amount: 1
-              unit: forever
+            - max: 500
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 1
-            period:
-              amount: 1
-              unit: forever
+            - max: 1
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 10
     rates:
@@ -1298,842 +1298,842 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /session.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /login.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/{user_id}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/by_login.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/by_full_name.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/by_email.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/by_tags.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /users/password/reset.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Dialog.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Message.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /chat/Message/unread.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /blobs.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /subscriptions.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /events.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /events/{event_id}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /class.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /data/{class_name}.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /data/{class_name}/multi.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         put:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         delete:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /address_book.json:
         post:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
       /address_book/registered_users.json:
         get:
           totalUsers:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 3
-            period:
-              amount: 1
-              unit: forever
+            - max: 3
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 25
     rates:
@@ -2551,842 +2551,842 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /session.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /login.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/{user_id}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/by_login.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/by_full_name.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/by_email.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/by_tags.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /users/password/reset.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Dialog.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Message.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /chat/Message/unread.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /blobs.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /subscriptions.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /events.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /events/{event_id}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /class.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /data/{class_name}.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /data/{class_name}/multi.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         put:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         delete:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /address_book.json:
         post:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
       /address_book/registered_users.json:
         get:
           totalUsers:
-            max: 25000
-            period:
-              amount: 1
-              unit: forever
+            - max: 25000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: 6
-            period:
-              amount: 1
-              unit: forever
+            - max: 6
+              period:
+                amount: 1
+                unit: forever
           fileSize:
             - max: 50
     rates:
@@ -3804,844 +3804,844 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /session.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /login.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/{user_id}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/by_login.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/by_full_name.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/by_email.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/by_tags.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /users/password/reset.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Dialog.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Message.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /chat/Message/unread.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /blobs.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /subscriptions.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /events.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /events/{event_id}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /class.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /data/{class_name}.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /data/{class_name}/multi.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         put:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         delete:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /address_book.json:
         post:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
       /address_book/registered_users.json:
         get:
           totalUsers:
-            max: 5000
-            period:
-              amount: 1
-              unit: forever
+            - max: 5000
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: 50
+            - max: 50
     rates:
       /account_settings.json:
         get:
@@ -5057,844 +5057,844 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /session.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /login.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/{user_id}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/by_login.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/by_full_name.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/by_email.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/by_tags.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /users/password/reset.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Dialog.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Message.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /chat/Message/unread.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /blobs.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /subscriptions.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /events.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /events/{event_id}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /class.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /data/{class_name}.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /data/{class_name}/multi.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         put:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         delete:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /address_book.json:
         post:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
       /address_book/registered_users.json:
         get:
           totalUsers:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           dataRetention:
-            max: custom
-            period:
-              amount: 1
-              unit: forever
+            - max: custom
+              period:
+                amount: 1
+                unit: forever
           fileSize:
-            max: custom
+            - max: custom
     rates:
       /account_settings.json:
         get:

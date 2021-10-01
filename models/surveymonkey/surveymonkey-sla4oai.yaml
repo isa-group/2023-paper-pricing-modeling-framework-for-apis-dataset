@@ -60,30 +60,30 @@ plans:
       https://api.surveymonkey.com/v3/benchmark_bundles:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -92,30 +92,30 @@ plans:
       https://api.surveymonkey.com/v3/benchmark_bundles/{bundle_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -124,30 +124,30 @@ plans:
       https://api.surveymonkey.com/v3/benchmark_bundles/{bundle_id}/analyze:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -156,30 +156,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -188,30 +188,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/messages/{message_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -220,30 +220,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/recipients:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -252,30 +252,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/recipients/{recipient_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -284,30 +284,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/responses/{response_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -316,30 +316,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/responses/{response_id}/details:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -348,30 +348,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/responses/bulk:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -380,30 +380,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{id}/messages/{id}/stats:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -412,30 +412,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_fields:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -444,30 +444,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists/{contact_list_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -476,30 +476,30 @@ plans:
       https://api.surveymonkey.com/v3/contacts/{contact_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -508,30 +508,30 @@ plans:
       https://api.surveymonkey.com/v3/errors:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -540,30 +540,30 @@ plans:
       https://api.surveymonkey.com/v3/errors/{error_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -572,30 +572,30 @@ plans:
       https://api.surveymonkey.com/v3/groups:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -604,30 +604,30 @@ plans:
       https://api.surveymonkey.com/v3/groups/{group_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -636,30 +636,30 @@ plans:
       https://api.surveymonkey.com/v3/groups/{group_id}/members:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -668,30 +668,30 @@ plans:
       https://api.surveymonkey.com/v3/groups/{group_id}/members/{member_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -700,30 +700,30 @@ plans:
       https://api.surveymonkey.com/v3/question_bank/questions:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -732,30 +732,30 @@ plans:
       https://api.surveymonkey.com/v3/roles:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -764,30 +764,30 @@ plans:
       https://api.surveymonkey.com/v3/survey_categories:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -796,30 +796,30 @@ plans:
       https://api.surveymonkey.com/v3/survey_languages:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -828,30 +828,30 @@ plans:
       https://api.surveymonkey.com/v3/survey_templates:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -860,30 +860,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{id}/rollups:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -892,30 +892,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{id}/trends:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -924,30 +924,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -956,30 +956,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/details:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -988,30 +988,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/languages:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1020,30 +1020,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/pages/{page_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1052,30 +1052,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/pages/{page_id}/questions/{question_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1084,30 +1084,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/pages/{page_id}/questions/{question_id}/benchmark:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1116,30 +1116,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/responses:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1148,30 +1148,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/responses/{response_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1180,30 +1180,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/responses/{response_id}/details:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1212,30 +1212,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/responses/bulk:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1244,30 +1244,30 @@ plans:
       https://api.surveymonkey.com/v3/users/{user_id}/shared:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1276,30 +1276,30 @@ plans:
       https://api.surveymonkey.com/v3/users/{user_id}/workgroups:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1308,30 +1308,30 @@ plans:
       https://api.surveymonkey.com/v3/users/me:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1340,30 +1340,30 @@ plans:
       https://api.surveymonkey.com/v3/webhooks/{webhook_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1372,30 +1372,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1404,30 +1404,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups/{workgroup_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1436,30 +1436,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups/{workgroup_id}/members:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1468,30 +1468,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups/{workgroup_id}/members/{member_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1500,30 +1500,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups/{workgroup_id}/shares:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1532,30 +1532,30 @@ plans:
       https://api.surveymonkey.com/v3/workgroups/{workgroup_id}/shares/{share_id}:
         get:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1564,30 +1564,30 @@ plans:
       https://api.surveymonkey.com/oauth/token:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1596,30 +1596,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/messages:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1628,30 +1628,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/messages/{message_id}/recipients:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1660,30 +1660,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/messages/{message_id}/recipients/bulk:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1692,30 +1692,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/messages/{message_id}/send:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1724,30 +1724,30 @@ plans:
       https://api.surveymonkey.com/v3/collectors/{collector_id}/responses:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1756,30 +1756,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1788,30 +1788,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists/{contact_list_id}/contacts:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1820,30 +1820,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists/{contact_list_id}/contacts/bulk:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1852,30 +1852,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists/{contact_list_id}/copy:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1884,30 +1884,30 @@ plans:
       https://api.surveymonkey.com/v3/contact_lists/{contact_list_id}/merge:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1916,30 +1916,30 @@ plans:
       https://api.surveymonkey.com/v3/contacts:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1948,30 +1948,30 @@ plans:
       https://api.surveymonkey.com/v3/contacts/bulk:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -1980,30 +1980,30 @@ plans:
       https://api.surveymonkey.com/v3/survey_folders:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2012,30 +2012,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2044,30 +2044,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/collectors:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2076,30 +2076,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/languages/{language_code}:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2108,30 +2108,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/pages:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2140,30 +2140,30 @@ plans:
       https://api.surveymonkey.com/v3/surveys/{survey_id}/pages/{page_id}/questions:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
@@ -2172,30 +2172,30 @@ plans:
       https://api.surveymonkey.com/v3/webhooks:
         post:
           totalContacts:
-            max: 2000000
-            period:
-              amount: 1
-              unit: forever
+            - max: 2000000
+              period:
+                amount: 1
+                unit: forever
           perGroupContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           perCSVContacts:
-            max: 10000
-            period:
-              amount: 1
-              unit: forever
+            - max: 10000
+              period:
+                amount: 1
+                unit: forever
           recipientsToAdd:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           emailsSent:
-            max: 1000
-            period:
-              amount: 1
-              unit: forever
+            - max: 1000
+              period:
+                amount: 1
+                unit: forever
           requests:
             - max: unlimited
               period:
