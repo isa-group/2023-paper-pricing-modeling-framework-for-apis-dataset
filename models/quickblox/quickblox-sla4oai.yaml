@@ -3809,7 +3809,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3823,7 +3823,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3836,7 +3836,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3849,7 +3849,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3863,7 +3863,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3876,7 +3876,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3890,7 +3890,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3903,7 +3903,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3917,7 +3917,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3930,7 +3930,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3943,7 +3943,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3957,7 +3957,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3971,7 +3971,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3985,7 +3985,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -3999,7 +3999,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4013,7 +4013,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4027,7 +4027,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4040,7 +4040,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4054,7 +4054,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4068,7 +4068,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4081,7 +4081,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4095,7 +4095,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4108,7 +4108,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4122,7 +4122,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4135,7 +4135,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4149,7 +4149,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4162,7 +4162,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4176,7 +4176,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4189,7 +4189,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4203,7 +4203,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4217,7 +4217,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4230,7 +4230,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4244,7 +4244,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4258,7 +4258,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4272,7 +4272,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4285,7 +4285,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4298,7 +4298,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4312,7 +4312,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4326,7 +4326,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4339,7 +4339,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4353,7 +4353,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4367,7 +4367,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4380,7 +4380,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4394,7 +4394,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4407,7 +4407,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4420,7 +4420,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4434,7 +4434,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4448,7 +4448,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4461,7 +4461,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4475,7 +4475,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4488,7 +4488,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4501,7 +4501,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4515,7 +4515,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4528,7 +4528,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4542,7 +4542,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4555,7 +4555,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4569,7 +4569,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4582,7 +4582,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4595,7 +4595,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4609,7 +4609,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4622,7 +4622,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -4636,7 +4636,7 @@ plans:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
@@ -5057,844 +5057,844 @@ plans:
       /account_settings.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /session.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /login.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/{user_id}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/by_login.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/by_full_name.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/by_facebook_id.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/by_email.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/by_tags.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/external/{external_user_id}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /users/password/reset.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Dialog.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Dialog/{chat_dialog_id}.json:
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Dialog/{chat_dialog_id}/notifications.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Message.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Message/{chat_message_id}.json:
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /chat/Message/unread.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /blobs.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /qbprod.s3.amazonaws.com:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /blobs/{blob_id}/complete.json:
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /blobs/{blob_id}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /blobs/{blob_uid}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /subscriptions.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /subscriptions/{subscription_id}.json:
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /events.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /events/{event_id}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /class.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /data/{class_name}.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /data/{class_name}/{custom_object_record_id}.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /data/{class_name}/by_criteria.json:
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /data/{class_name}/multi.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         put:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /data/{class_name}/{custom_object_record_id}/file.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         delete:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /address_book.json:
         post:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
       /address_book/registered_users.json:
         get:
           totalUsers:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           dataRetention:
-            - max: custom
+            - custom: true
               period:
                 amount: 1
                 unit: forever
           fileSize:
-            - max: custom
+            - custom: true
     rates:
       /account_settings.json:
         get:
