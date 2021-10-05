@@ -832,19 +832,11 @@ plans:
       /legacy/issues/search/{owner}/{repository}/{state}/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -852,19 +844,11 @@ plans:
       /legacy/repos/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -884,19 +868,11 @@ plans:
       /legacy/user/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -4355,19 +4331,11 @@ plans:
       /search/code:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -4375,19 +4343,11 @@ plans:
       /search/commits:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -4395,19 +4355,11 @@ plans:
       /search/issues:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -4415,19 +4367,11 @@ plans:
       /search/repositories:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -4435,19 +4379,11 @@ plans:
       /search/users:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -11787,19 +11723,11 @@ plans:
       /legacy/issues/search/{owner}/{repository}/{state}/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -11807,19 +11735,11 @@ plans:
       /legacy/repos/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -11839,19 +11759,11 @@ plans:
       /legacy/user/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -15310,19 +15222,11 @@ plans:
       /search/code:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -15330,19 +15234,11 @@ plans:
       /search/commits:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -15350,19 +15246,11 @@ plans:
       /search/issues:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -15370,19 +15258,11 @@ plans:
       /search/repositories:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -15390,19 +15270,11 @@ plans:
       /search/users:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -22742,19 +22614,11 @@ plans:
       /legacy/issues/search/{owner}/{repository}/{state}/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -22762,19 +22626,11 @@ plans:
       /legacy/repos/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -22794,19 +22650,11 @@ plans:
       /legacy/user/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -26265,19 +26113,11 @@ plans:
       /search/code:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -26285,19 +26125,11 @@ plans:
       /search/commits:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -26305,19 +26137,11 @@ plans:
       /search/issues:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -26325,19 +26149,11 @@ plans:
       /search/repositories:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -26345,19 +26161,11 @@ plans:
       /search/users:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -33697,19 +33505,11 @@ plans:
       /legacy/issues/search/{owner}/{repository}/{state}/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -33717,19 +33517,11 @@ plans:
       /legacy/repos/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -33749,19 +33541,11 @@ plans:
       /legacy/user/search/{keyword}:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -37220,19 +37004,11 @@ plans:
       /search/code:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -37240,19 +37016,11 @@ plans:
       /search/commits:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -37260,19 +37028,11 @@ plans:
       /search/issues:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -37280,19 +37040,11 @@ plans:
       /search/repositories:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
@@ -37300,19 +37052,11 @@ plans:
       /search/users:
         get:
           requests:
-            - max: 60
-              period:
-                amount: 1
-                unit: hour
             - max: 10
               period:
                 amount: 1
                 unit: minute
           authenticatedRequests:
-            - max: 5000
-              period:
-                amount: 1
-                unit: hour
             - max: 30
               period:
                 amount: 1
