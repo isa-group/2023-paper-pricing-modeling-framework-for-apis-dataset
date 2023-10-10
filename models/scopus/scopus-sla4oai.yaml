@@ -54,26 +54,6 @@ plans:
                 unit: second
 
 
-      # Citations count metadata
-      '/abstract/citation-count':
-        get:
-          requests:
-            - max: 24
-              period: 
-                amount: 1
-                unit: second
-
-
-      # Citations overview
-      '/abstract/citations':
-        get:
-          requests:
-            - max: 6
-              period: 
-                amount: 1
-                unit: second
-
-
 	    # Abstract Retrieval
       '/abstract/pii/{pii}':
         get:
@@ -127,62 +107,6 @@ plans:
         get:
           requests:
             - max: 9
-              period: 
-                amount: 1
-                unit: second
-
-
-      # Affiliation Retrieval
-      '/affiliation/affiliation_id/{affiliation_id}':
-        get:
-          requests:
-            - max: 9
-              period: 
-                amount: 1
-                unit: second
-      # Affiliation Retrieval
-      '/affiliation/eid/{eid}':
-        get:
-          requests:
-            - max: 9
-              period: 
-                amount: 1
-                unit: second
-
-
-      # Author Retrieval
-      '/author/eid/{eid}':
-        get:
-          requests:
-            - max: 6
-              period: 
-                amount: 1
-                unit: second
-      # Author Retrieval
-      '/author/author_id/{author_id}':
-        get:
-          requests:
-            - max: 6
-              period: 
-                amount: 1
-                unit: second
-
-
-	    # Affiliation Search
-      '/search/affiliation':
-        get:
-          requests:
-            - max: 6
-              period: 
-                amount: 1
-                unit: second
-
-
-	    # Author Search
-      '/search/author':
-        get:
-          requests:
-            - max: 6
               period: 
                 amount: 1
                 unit: second
